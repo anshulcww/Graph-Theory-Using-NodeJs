@@ -98,6 +98,9 @@ class Graph{
         }
     }
 
+    //Topological Sorting
+
+
 
 
 
@@ -140,10 +143,11 @@ g.bfs('A');
  console.log("DFS Using recursion");
 g.dfsRecursive('A');
 
-console.log("DFS using Iterators")
-g.dfsUsingStack('A')
+console.log("DFS using Iterators");
+g.dfsUsingStack('A');
 
-
+console.log("Topological Sorting");
+g.topSort();
 
 
 
